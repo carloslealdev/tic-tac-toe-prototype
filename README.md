@@ -1,12 +1,38 @@
-# React + Vite
+# Tic-Tac-Toe React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un juego de Tic-Tac-Toe clásico implementado con React.
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Juego Clásico**: Dos jugadores (X y O) se turnan para marcar casillas en un tablero de 3x3.
+- **Detección de Ganador**: El juego detecta automáticamente cuándo un jugador ha ganado.
+- **Empate**: Maneja el caso de un empate si el tablero se llena y no hay un ganador.
+- **Tecnología Moderna**: Construido con React para una interfaz de usuario dinámica y eficiente.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **CSS**: Para el estilo y el diseño de la aplicación.
+- **JavaScript (ES6+)**: Lenguaje principal de programación.
+
+## 💻 Instalación y Uso
+
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+1.  **Clona el repositorio:**
+    ```bash
+    git clone [https://github.com/carloslealdev/tic-tac-toe-prototype.git](https://github.com/carloslealdev/tic-tac-toe-prototype.git)
+    ```
+2.  **Navega al directorio del proyecto:**
+    ```bash
+    cd tu-repo-tic-tac-toe
+    ```
+3.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
+4.  **Inicia la aplicación en modo de desarrollo:**
+    ```bash
+    npm start
+    ```
+    Esto abrirá la aplicación en tu navegador web en `http://localhost:3000`.
